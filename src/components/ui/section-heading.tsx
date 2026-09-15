@@ -27,7 +27,7 @@ export function SectionHeading({
     >
       <p
         className={cn(
-          "mb-2 flex items-center gap-2 font-display text-xs font-semibold uppercase tracking-[0.28em] text-brand-red",
+          "mb-2 flex items-center gap-2 font-display text-xs font-semibold uppercase tracking-[0.28em] text-blue-400",
           align === "center" && "justify-center",
         )}
       >

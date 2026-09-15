@@ -52,7 +52,6 @@ export function AboutSection() {
           >
             Learn more
           </Link>
-          <AmericanBadge />
         </div>
       </div>
     </section>

@@ -11,7 +11,7 @@ export function ServicesSection() {
     <section className="bg-white py-16 sm:py-20">
       <Container>
         <SectionHeading
-          eyebrow="Our Services"
+          eyebrow="- Our Services -"
           title="Auto Glass Solutions"
           description="We handle all types of auto glass, with quality workmanship and top-tier materials."
         />

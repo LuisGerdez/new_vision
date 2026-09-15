@@ -61,7 +61,6 @@ export function AboutPage() {
                 {site.phoneDisplay}
                 <ChevronIcon />
               </Button>
-              <AmericanBadge />
             </div>
           </div>
         </Container>

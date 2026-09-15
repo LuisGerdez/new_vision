@@ -13,8 +13,8 @@ export function ValuesSection() {
       <Container className="relative grid gap-8 sm:grid-cols-2 lg:grid-cols-4">
         {values.map((value) => (
           <div key={value.title} className="flex items-start gap-4">
-            <span className="mt-0.5 inline-flex size-12 shrink-0 items-center justify-center rounded-full border border-white/20 bg-white/5">
-              <ValueIcon name={value.icon} className="size-6" />
+            <span className="mt-0.5 inline-flex size-12 shrink-0 items-center justify-center">
+              <ValueIcon name={value.icon} className="size-12" />
             </span>
             <div>
               <h3 className="font-display text-sm font-semibold uppercase tracking-[0.16em]">

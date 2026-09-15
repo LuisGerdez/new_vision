@@ -7,7 +7,8 @@ import { site, testimonials } from "@/config/site";
 
 export function AreaTestimonialsSection() {
   return (
-    <section className="grid lg:grid-cols-2">
+    <section className="relative overflow-hidden bg-navy py-10 text-white">
+    {/* <section className="grid lg:grid-cols-2"> */}
       <div className="relative min-h-[320px] overflow-hidden">
         <Image
           src="/images/area-houston.png"
@@ -25,20 +26,12 @@ export function AreaTestimonialsSection() {
             {site.locationShort}
           </h2>
           <p className="mt-3 max-w-md text-sm text-white/85">
-            We proudly serve Katy, Houston and surrounding area. If you&apos;re in
+            We serve Katy, Houston and surrounding area. If you&apos;re in
             our service area, we&apos;ll come to you!
           </p>
-          <Link
-            href={paths.serviceArea}
-            className="mt-6 inline-flex w-fit items-center gap-2 rounded-full bg-brand-red px-5 py-2.5 font-display text-xs font-semibold uppercase tracking-widest text-white hover:bg-brand-red-hover"
-          >
-            <PinIcon className="size-4" />
-            View Service Area
-            <ChevronIcon />
-          </Link>
         </div>
       </div>
-      <div className="bg-[#f7f4ef] px-6 py-10 sm:px-8">
+      {/* <div className="bg-[#f7f4ef] px-6 py-10 sm:px-8">
         <p className="mb-6 flex items-center gap-2 font-display text-xs font-semibold uppercase tracking-[0.22em] text-navy">
           What Our Customers Say
           <span className="text-star">★★★★★</span>
@@ -68,7 +61,7 @@ export function AreaTestimonialsSection() {
             </li>
           ))}
         </ul>
-      </div>
+      </div> */}
     </section>
   );
 }

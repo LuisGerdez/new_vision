@@ -26,8 +26,8 @@ export const navItems = [
   { label: "Home", href: paths.home },
   { label: "Services", href: paths.services },
   { label: "About Us", href: paths.about },
-  { label: "Service Area", href: paths.serviceArea },
-  { label: "Gallery", href: paths.gallery },
+  /* { label: "Service Area", href: paths.serviceArea },
+  { label: "Gallery", href: paths.gallery }, */
   { label: "Contact", href: paths.contact },
 ] as const;
 
@@ -172,5 +172,5 @@ export const galleryImages = [
 export const heroBadges = [
   { label: "Quality Workmanship", icon: "shield" as const },
   { label: "Fast & Reliable Service", icon: "clock" as const },
-  { label: "Competitive Pricing", icon: "handshake" as const },
+  { label: "Competitive Pricing", icon: "tag" as const },
 ] as const;

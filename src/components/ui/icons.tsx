@@ -65,6 +65,40 @@ export function HandshakeIcon({ className }: IconProps) {
       viewBox="0 0 24 24"
       fill="none"
       stroke="currentColor"
+      strokeWidth="2"
+      className={cn("size-7", className)}
+      aria-hidden="true"
+    >
+      <path
+        strokeLinecap="round"
+        strokeLinejoin="round"
+        d="M3.5 14.5 7 11a2.2 2.2 0 0 1 3.1 0l1.4 1.4"
+      />
+      <path
+        strokeLinecap="round"
+        strokeLinejoin="round"
+        d="M20.5 14.5 17 11a2.2 2.2 0 0 0-3.1 0L12.5 12.4"
+      />
+      <path
+        strokeLinecap="round"
+        strokeLinejoin="round"
+        d="m8 13.2 1.8 2.6c.3.4.9.4 1.2 0L12 14.2l1 1.6c.3.4.9.4 1.2 0L16 13.2"
+      />
+      <path
+        strokeLinecap="round"
+        strokeLinejoin="round"
+        d="M9.2 10.2v2.1M14.8 10.2v2.1"
+      />
+    </svg>
+  );
+}
+
+export function TagIcon({ className }: IconProps) {
+  return (
+    <svg
+      viewBox="0 0 24 24"
+      fill="none"
+      stroke="currentColor"
       strokeWidth="1.8"
       className={cn("size-7", className)}
       aria-hidden="true"
@@ -72,8 +106,9 @@ export function HandshakeIcon({ className }: IconProps) {
       <path
         strokeLinecap="round"
         strokeLinejoin="round"
-        d="M8.2 12.2L6 10l2.2-2.2M15.8 12.2L18 10l-2.2-2.2M7.5 12.5l2.8 2.8c.4.4 1 .4 1.4 0l1.3-1.3 1.3 1.3c.4.4 1 .4 1.4 0L18.5 12"
+        d="M3.8 12.2V6.2A2.2 2.2 0 0 1 6 4h6.1L20 12a2.3 2.3 0 0 1 0 3.2l-4.6 4.6a2.3 2.3 0 0 1-3.2 0L3.8 12.2z"
       />
+      <circle cx="8.2" cy="8.3" r="1.15" fill="currentColor" stroke="none" />
     </svg>
   );
 }
@@ -229,6 +264,7 @@ const iconMap = {
   clock: ClockIcon,
   handshake: HandshakeIcon,
   pin: PinIcon,
+  tag: TagIcon,
 } as const;
 
 export function ValueIcon({

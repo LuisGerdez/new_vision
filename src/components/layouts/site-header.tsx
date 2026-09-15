@@ -46,7 +46,7 @@ export function SiteHeader() {
           compact ? "md:h-[5.5rem] lg:h-24" : "md:h-24 lg:h-28",
         )}
       >
-        <Container className="flex h-full items-center justify-between gap-4">
+        <Container className={cn("flex h-full items-center justify-between gap-4", compact ? '' : 'pt-4')}>
           <Link
             href="/"
             className={cn(
