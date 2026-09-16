@@ -3,8 +3,8 @@ import { paths } from "@/config/paths";
 export const site = {
   name: "New Vision Auto Glass",
   legalName: "New Vision Auto Glass LLC",
-  phoneDisplay: "281-712-7165",
-  phoneHref: "tel:+12817127165",
+  phoneDisplay: "000-000-0000",
+  phoneHref: "tel:+10000000000",
   location: "Katy & Houston",
   locationShort: "Katy / Houston",
   tagline: "Clear Vision. Safer Roads.",
