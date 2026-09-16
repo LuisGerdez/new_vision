@@ -3,7 +3,7 @@ import { Great_Vibes, Inter, Oswald } from "next/font/google";
 
 import { SiteLayout } from "@/components/layouts/site-layout";
 import { LocalBusinessJsonLd } from "@/components/seo/json-ld";
-import { defaultTitle } from "@/config/seo";
+import { defaultTitle, shareImage } from "@/config/seo";
 import { site, siteUrl } from "@/config/site";
 
 import "@/styles/globals.css";
@@ -60,11 +60,13 @@ export const metadata: Metadata = {
     siteName: site.name,
     title: defaultTitle,
     description: site.description,
+    images: [shareImage],
   },
   twitter: {
     card: "summary_large_image",
     title: defaultTitle,
     description: site.description,
+    images: [shareImage],
   },
   robots: {
     index: true,

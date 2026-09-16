@@ -12,7 +12,10 @@ export function LocalBusinessJsonLd() {
     description: site.description,
     url: absoluteUrl("/"),
     telephone,
-    image: absoluteUrl("/images/new-vision-logo.png"),
+    image: [
+      absoluteUrl("/og.png"),
+      absoluteUrl("/images/new-vision-logo.png"),
+    ],
     logo: absoluteUrl("/images/new-vision-logo.png"),
     slogan: site.tagline,
     priceRange: "$$",

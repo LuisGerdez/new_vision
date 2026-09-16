@@ -1,7 +1,7 @@
 import { paths } from "@/config/paths";
 
 export const siteUrl =
-  process.env.NEXT_PUBLIC_SITE_URL ?? "https://newvisionautoglass.com";
+  process.env.NEXT_PUBLIC_SITE_URL ?? "https://newvisionautoglassllc.com";
 
 export const site = {
   name: "New Vision Auto Glass",
