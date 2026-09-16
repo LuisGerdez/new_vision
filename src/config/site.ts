@@ -1,5 +1,8 @@
 import { paths } from "@/config/paths";
 
+export const siteUrl =
+  process.env.NEXT_PUBLIC_SITE_URL ?? "https://newvisionautoglass.com";
+
 export const site = {
   name: "New Vision Auto Glass",
   legalName: "New Vision Auto Glass LLC",
@@ -7,11 +10,22 @@ export const site = {
   phoneHref: "tel:+10000000000",
   location: "Katy & Houston",
   locationShort: "Katy / Houston",
+  locale: "en_US",
+  region: "US-TX",
   tagline: "Clear Vision. Safer Roads.",
   missionScript: "Your Vision. Our Mission.",
   aboutScript: "Quality Glass. Professional Service.",
   description:
     "Professional mobile auto glass service in Katy & Houston. We come to your home, work, or wherever you need us.",
+  keywords: [
+    "mobile auto glass",
+    "windshield replacement",
+    "auto glass Katy",
+    "auto glass Houston",
+    "window regulator replacement",
+    "side glass replacement",
+    "New Vision Auto Glass",
+  ],
   hours: [
     { label: "Monday – Saturday", value: "7:00 AM – 7:00 PM" },
     { label: "Sunday", value: "By appointment" },
